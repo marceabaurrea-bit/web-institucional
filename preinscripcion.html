@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preinscripción</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Institución Educativa</h1>
+</header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="index.html#formaciones">Formaciones</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
+
+<main>
+  <h2>Preinscripción</h2>
+  <p>Completá el formulario para solicitar tu preinscripción.</p>
+
+  <form>
+    <input type="text" name="nombre_apellido" placeholder="Nombre y apellido" required>
+
+    <input type="email" name="mail" placeholder="Mail" required>
+
+    <input type="tel" name="telefono" placeholder="Teléfono" required>
+
+    <select name="formacion" required>
+      <option value="" disabled selected>Formación solicitada</option>
+      <option value="Acompañamiento Terapéutico">Acompañamiento Terapéutico</option>
+      <option value="Community Manager">Community Manager</option>
+      <option value="Gestión de Proyectos">Gestión de Proyectos</option>
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+    </select>
+
+    <button type="submit">Enviar preinscripción</button>
+  </form>
+</main>
+
+<footer>
+  <p>© 2026 Institución Educativa</p>
+</footer>
+
+</body>
+</html>
