@@ -152,5 +152,18 @@ select {
   background-color: white;
 }
 
+.campus-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.campus-btn {
+  font-size: 18px;
+  padding: 15px;
+}
 
 
